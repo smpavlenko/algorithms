@@ -5,3 +5,12 @@ scala:
 
 jdk:
   - oraclejdk8
+
+branches:
+  only:
+    - master
+    
+script: "sbt clean coverage test"
+after_success:
+  - "sbt coverageReport coveralls"
+  - bash <(curl -s https://codecov.io/bash)
