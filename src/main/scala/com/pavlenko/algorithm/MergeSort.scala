@@ -4,7 +4,7 @@ package com.pavlenko.algorithm
  * Merge sort algorithm
  *
  * @author sergii.pavlenko
- * @since Jul 27, 2017
+ * @since Jun 27, 2017
  */
 object MergeSort {
   def sort(list: List[Long]): List[Long] = {
