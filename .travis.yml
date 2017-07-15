@@ -5,7 +5,3 @@ scala:
 
 jdk:
   - oraclejdk8
-
-branches:
-  only:
-    - trunk
